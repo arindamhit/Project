@@ -1,0 +1,32 @@
+    $base-color: #588aad; // go big blue!$include_default_icons: false;
+	$body-bg-color: #FFFFFF;
+@import 'sencha-touch/default/all';
+@include sencha-panel;
+@include sencha-buttons;
+@include sencha-sheet;
+@include sencha-picker;
+@include sencha-tabs;
+@include sencha-toolbar;
+@include sencha-toolbar-forms;
+@include sencha-indexbar;
+@include sencha-list;
+@include sencha-layout;
+@include sencha-form;
+@include sencha-msgbox;
+@include sencha-loading-spinner;
+
+
+@include pictos-iconmask("bookmarks");
+@include pictos-iconmask("compose");
+@include pictos-iconmask("trash");
+@include pictos-iconmask("search");
+@include pictos-iconmask("bookmark2");
+@include pictos-icon("home2");
+
+
+@include sencha-toolbar-ui('blue', #EEEEEE,'matte');
+.mytitlebar .x-title {
+    color: #AB3951;
+}
+
+@include sencha-button-ui('orange', #95B9C7, 'glossy');
